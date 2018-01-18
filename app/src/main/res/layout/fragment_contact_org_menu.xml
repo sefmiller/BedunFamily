@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="@dimen/_16sdp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <LinearLayout
+        android:id="@+id/relativeLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2"
+        >
+
+        <RelativeLayout
+        android:id="@+id/match_but"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:background="@drawable/bottomborder">
+
+            <TextView
+                android:id="@+id/match_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/match_img"
+                android:gravity="center_vertical"
+                android:lines="1"
+                android:text="@string/match_cont"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/_18ssp" />
+
+        <ImageView
+            android:id="@+id/match_img"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_120sdp"
+            android:src="@drawable/match"
+            android:contentDescription="happy face by Adrien Coquet from the Noun Project"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/no_match_but"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_120sdp"
+            android:src="@drawable/no_match"
+            android:id="@+id/no_match_img"
+            android:contentDescription="sad face by Adrien Coquet from the Noun Project"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/no_match_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/no_match_img"
+            android:gravity="center_vertical"
+            android:lines="1"
+            android:text="@string/no_match_cont"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/_18ssp" />
+
+    </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

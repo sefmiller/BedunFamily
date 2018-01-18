@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:tag="cards main container">
+
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginBottom="@dimen/_35sdp"
+        android:layout_marginEnd="@dimen/_25sdp"
+        android:layout_marginRight="@dimen/_25sdp"
+        android:background="@drawable/button"
+        android:padding="@dimen/_5sdp"
+        android:visibility="invisible"
+        android:text="@string/send_voice_mess"
+        android:textColor="@color/TitleColor"
+        android:textSize="@dimen/_12ssp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_200sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:src="@drawable/circle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <Chronometer
+        android:id="@+id/autoCompleteTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/_40ssp"
+        android:textColor="@color/TitleColor"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_85sdp"
+        />
+
+
+    <ImageView
+        android:id="@+id/imageButton2"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:src="@drawable/voice"
+        android:layout_below="@+id/imageView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_42sdp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:background="@drawable/button"
+        android:text="@string/record_again"
+        android:visibility="invisible"
+        android:textColor="@color/TitleColor"
+        android:textSize="@dimen/_12ssp"
+        android:padding="@dimen/_5sdp"
+        android:layout_marginLeft="@dimen/_23sdp"
+        android:layout_marginStart="@dimen/_23sdp"
+        android:layout_alignTop="@+id/button9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
+
+

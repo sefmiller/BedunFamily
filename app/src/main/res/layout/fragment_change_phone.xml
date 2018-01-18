@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_16sdp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <RelativeLayout
+        android:id="@+id/phone_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/set_phone_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="#50D3D3D3"
+            android:gravity="center"
+            android:text="@string/set_new_phone"
+            android:textColor="@color/TitleColor"
+            android:textSize="@dimen/_18ssp" />
+
+        <net.rimoto.intlphoneinput.IntlPhoneInput
+            android:id="@+id/my_phone_input"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/set_phone_title"
+            android:background="#25D3D3D3"
+            android:hint="@string/prompt_email"
+            android:inputType="textPersonName"
+            android:paddingLeft="@dimen/_5sdp"
+            android:paddingRight="@dimen/_5sdp"
+            android:textAlignment="center"
+            app:flagPaddingBottom="@dimen/_4sdp"
+            app:flagPaddingEnd="@dimen/_4sdp"
+            app:flagPaddingStart="@dimen/_4sdp"
+            app:flagPaddingTop="@dimen/_4sdp"
+            app:textColor="@color/TitleColor"
+            app:textColorHint="@color/toolbarColor"
+            app:textSize="@dimen/_18ssp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/old_phone_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="52dp">
+
+        <TextView
+            android:id="@+id/old_phone_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:text="@string/current_phone"
+            android:textColor="@color/TitleColor"
+            android:background="#50D3D3D3"
+
+            android:gravity="center"
+            android:textSize="@dimen/_18ssp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/old_phone_title"
+            android:background="#25D3D3D3"
+            android:text=""
+            android:id="@+id/phone_text"
+            android:gravity="center_vertical"
+            android:textAlignment="center"
+            android:textSize="@dimen/_18ssp"
+            android:textColor="@color/TitleColor"
+            android:paddingLeft="@dimen/_5sdp"
+            android:paddingRight="@dimen/_5sdp"
+            />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/change_phone_button"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="@string/change_phone"
+        android:textStyle="bold"
+        android:padding="@dimen/_5sdp"
+        android:textColor="@color/TitleColor"
+        android:textSize="@dimen/_12ssp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="52dp" />
+
+
+</RelativeLayout>

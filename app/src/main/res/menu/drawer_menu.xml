@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <group android:checkableBehavior="single" android:id="@+id/root_group" >
+    <item
+        android:id="@+id/item_home"
+        android:checked="true"
+        android:icon="@drawable/home"
+        android:title="@string/home" />
+    <item
+        android:title="@string/current_refugee"
+        android:icon="@drawable/selected_person"
+        android:id="@+id/current_ref_item"
+        android:visible="false">
+      <menu android:id="@+id/current_ref_menu">
+        <group android:checkableBehavior="single" android:id="@+id/current_ref_group"
+            >
+          <item
+              android:id="@+id/item_select_refugee"
+              android:icon="@drawable/selected_person"
+              android:title="@string/select_ref"
+              android:visible="false"
+              />
+          <item
+              android:id="@+id/item_add_refugee"
+              android:icon="@drawable/lostfamily"
+              android:title="@string/add_ref"
+              android:visible="false"
+              />
+          <item
+              android:id="@+id/item_update_refugee_details"
+              android:icon="@drawable/searchabledetails"
+              android:title="@string/update_ref_details"
+              android:visible="false"
+              />
+        </group>
+      </menu >
+    </item>
+    <item
+        android:title="@string/fam_members"
+        android:id="@+id/fam_menu_item"
+        android:visible="false">
+      <menu android:id="@+id/you_menu">
+        <group android:checkableBehavior="single" android:id="@+id/you_group"
+            >
+          <item
+              android:id="@+id/fam_tree_menu"
+              android:title="@string/select_fam"
+              android:visible="false"
+              android:icon="@drawable/selected_person"
+              />
+          <item
+              android:id="@+id/lost_fam_menu"
+              android:icon="@drawable/lostfamily"
+              android:title="@string/add_family_member_title" />
+          <item
+              android:id="@+id/item_update_fam_details"
+              android:icon="@drawable/searchabledetails"
+              android:visible="false"
+              android:title="@string/update_fam_member_details"
+              />
+        </group>
+      </menu >
+    </item>
+    <item android:title="@string/search_fam" android:id="@+id/search_item"
+        android:visible="false"
+        >
+      <menu android:id="@+id/your_menu">
+        <group android:checkableBehavior="single" android:id="@+id/your_group">
+          <item
+              android:id="@+id/item_fam_search"
+              android:title="@string/search_fam"
+              android:icon="@drawable/searchfam"
+              />
+        </group>
+      </menu>
+    </item>
+    <item android:title="@string/voice_messages" android:id="@+id/voice_menu_item"
+        android:icon="@drawable/voicemessage"
+        android:visible="false"
+        >
+      <menu android:id="@+id/setting_menu">
+        <group android:checkableBehavior="single" android:id="@+id/setting_group">
+          <item
+              android:id="@+id/item_voice_inbox"
+              android:title="@string/voice_message_inbox"
+              android:icon="@drawable/voicemessage"
+              />
+          <item
+              android:id="@+id/item_voice_listen"
+              android:title="@string/voice_message_sentbox"
+              android:icon="@drawable/amendvoice"
+                 />
+        </group>
+      </menu>
+    </item>
+    <item android:title="@string/contact_organisation" android:id="@+id/contact_org"
+        android:visible="false"
+        >
+      <menu android:id="@+id/contact_org_menu">
+        <group android:checkableBehavior="single" android:id="@+id/a_group"
+            >
+          <item
+              android:id="@+id/contact_org_match"
+              android:title="@string/contact_organisation"
+              android:icon="@drawable/contact"
+              />
+        </group>
+      </menu>
+    </item>
+  <item android:title="@string/profile" android:id="@+id/profile_parent_item"
+      android:icon="@drawable/profile"
+      >
+    <menu android:id="@+id/profile_menu">
+      <group android:checkableBehavior="single" android:id="@+id/profile_group">
+        <item
+            android:id="@+id/item_personal"
+            android:title="@string/your_details"
+            android:icon="@drawable/searchabledetails"
+            />
+        <item
+            android:id="@+id/item_login"
+            android:title="@string/settings"
+            android:icon="@drawable/settings"
+            />
+      </group>
+    </menu>
+  </item>
+  </group>
+  </menu>

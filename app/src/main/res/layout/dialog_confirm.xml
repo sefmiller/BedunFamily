@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#50D3D3D3"
+    android:id="@+id/dialog_frame"
+    >
+
+    <TextView
+        android:id="@+id/dialog_alert_text_title"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/_65sdp"
+        android:background="@drawable/dialogborder"
+        android:gravity="center"
+        android:padding="@dimen/_10sdp"
+        android:text="@string/upload"
+        android:textAlignment="center"
+        android:textColor="@color/red"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+         />
+
+    <TextView
+        android:id="@+id/dialog_alert_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_15sdp"
+        android:textAlignment="center"
+        android:text="test test test"
+        android:textColor="@color/TitleColor"
+        android:textSize="@dimen/_16ssp"
+        android:layout_below="@+id/dialog_alert_text_title"
+         />
+
+    <Button
+        android:id="@+id/ok_alert_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        android:layout_margin="@dimen/_10sdp"
+        android:textColor="@color/TitleColor"
+        android:background="@drawable/button"
+        android:layout_below="@+id/dialog_alert_text"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
+
+
+

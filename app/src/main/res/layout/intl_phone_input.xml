@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+    <ImageView
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="match_parent"
+        android:id="@+id/intl_phone_edit__country"
+        android:src="@drawable/country_gb"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:background="@android:color/transparent" />
+    <android.support.v7.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/intl_phone_edit__phone"
+        android:lines="1"
+        android:textColor="@color/TitleColor"
+        android:textColorHint="@color/TitleColor"
+        android:textSize="@dimen/_16ssp"
+        android:inputType="phone" />
+</LinearLayout>

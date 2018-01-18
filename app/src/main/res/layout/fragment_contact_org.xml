@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/_9sdp"
+    android:paddingLeft="@dimen/_16sdp"
+    android:paddingRight="@dimen/_16sdp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.gb.globalfamily.Registration_Refugee_Activity"
+    >
+
+    <TextView
+        android:id="@+id/textViewUserIdMessage"
+        android:layout_width="@dimen/_240sdp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/my_phone_input"
+        android:layout_centerHorizontal="true"
+        android:text=" "
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/TitleColor" />
+
+    <TextView
+        android:id="@+id/textViewUserIdLabel"
+        android:layout_width="@dimen/_240sdp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/location"
+        android:layout_below="@+id/location"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:text=" "
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/TitleColor"
+        android:textSize="@dimen/_11ssp" />
+
+    <com.gb.globalfamily.IntlPhoneInput
+        android:id="@+id/my_phone_input"
+        android:layout_width="@dimen/_240sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_alignStart="@+id/textViewUserIdLabel"
+        android:layout_below="@+id/textViewUserIdLabel"
+        android:background="#20D3D3D3"
+        android:hint="@string/prompt_email"
+        android:inputType="textPersonName"
+        android:paddingLeft="@dimen/_5sdp"
+        android:paddingRight="@dimen/_5sdp" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="@dimen/_240sdp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="#25D3D3D3"
+        android:padding="@dimen/_20sdp">
+
+        <TextView
+            android:id="@+id/step_1_description"
+            android:layout_width="@dimen/_240sdp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/ins_connect_fam"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:lines="5"
+            android:maxLines="5"
+            android:text="@string/contact_org_inst"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/_15ssp" />
+
+        <TextView
+            android:id="@+id/ins_connect_fam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/instructions"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/_28ssp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/location_label"
+        android:layout_width="@dimen/_240sdp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_17sdp"
+        android:text=""
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textSize="@dimen/_11ssp" />
+
+    <EditText
+        android:id="@+id/location"
+        android:layout_width="@dimen/_240sdp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/location_label"
+        android:layout_below="@+id/location_label"
+        android:background="#20D3D3D3"
+        android:hint="@string/location"
+        android:imeOptions="actionNext"
+        android:lines="3"
+        android:gravity="top"
+        android:padding="@dimen/_5sdp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textSize="@dimen/_15ssp" />
+
+
+    <Button
+        android:id="@+id/contact_button"
+        android:layout_width="@dimen/_150sdp"
+        android:textColorHint="#ffffff"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="@string/next"
+        android:textSize="@dimen/_12ssp"
+        android:textColor="@color/TitleColor"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

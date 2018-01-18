@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Year">Y</string>
+    <string name="Month">M</string>
+    <string name="Day">D</string>
+
+    <string-array name="WheelArrayDefault">
+        <item>English</item>
+        <item>عربى</item>
+        <item>Français</item>
+        <item>پښتو</item>
+        <item>اردو</item>
+        <item>Italiano</item>
+        <item>Kurdî</item>
+        <item>Português</item>
+        <item>Deutsche</item>
+        <item>Српски</item>
+        <item>Soomaaliya</item>
+        <item>Español</item>
+        <item>Ελληνικά</item>
+        <item>ਪੰਜਾਬੀ</item>
+        <item>Türk</item>
+        <item>русский</item>
+        <item>shqiptar</item>
+
+    </string-array>
+    <string-array name="WheelArrayWeek">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_5sdp"
+    style="?android:attr/spinnerDropDownItemStyle"
+    android:singleLine="true"
+    android:layout_width="@dimen/_250sdp"
+    >
+
+    <ImageView
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_18sdp"
+        android:id="@+id/intl_phone_edit__country__item_image"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/country_il"
+        android:contentDescription="@string/item_image_contentDescription" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/intl_phone_edit__country__item_name"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="@dimen/_14ssp"
+        android:textColor="@color/TitleColor"
+        android:textColorHint="@color/TitleColor"
+        android:gravity="center_horizontal"
+        android:maxLines="2"
+        android:paddingRight="@dimen/_5sdp"
+        android:layout_toRightOf="@+id/intl_phone_edit__country__item_image"
+        android:layout_toEndOf="@+id/intl_phone_edit__country__item_image" />
+
+</RelativeLayout>

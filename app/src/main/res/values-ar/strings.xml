@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="position_array">
+        <item>Volunteer Co-ordinator</item>
+        <item>Volunteer Medic</item>
+        <item>Child Protection worker</item>
+        <item>Lawyer / Advocacy Support</item>
+        <item>Social Worker</item>
+        <item>Translator</item>
+        <item>Labourer</item>
+        <item>Kitchen Staff/ Cook</item>
+        <item>Aid Distribution \n Team Member</item>
+        <item>Manager/Supervisor</item>
+    </string-array>
+    <string-array name="sector_array">
+        <item>Refugee Camp</item>
+        <item>Head Office</item>
+    </string-array>
+    <string name="app_name">BedunFamily</string>
+    <string name="app_title">Bedun Family</string>
+    <string name="next">Next</string>
+    <string name="search_step_2_inst">Please enter the details of your missing family member. The more detail you enter, the more likely we are to find a match."</string>
+    <string name="add_ref_ins">Please enter the details of the refugee you are working with. Please be aware that other users will be able to search for this individual, so details should be recorded as accurately as possible"</string>
+    <string name="voice_inst">"Record a 30 second personal voice message on the next screen, to send to the match."</string>
+    <string name="voicemail">" Voice Message"</string>
+    <string name="voice_final_ins">"Your Voice Message was sent. Please wait up to 28 days before contacting an Aid Organization. In the meantime, please continue to use the search function to locate your family member"</string>
+    <string name="add_family_member_title"> Add Family Member</string>
+    <string name="instructions"><u>Instructions</u></string>
+    <string-array name="aid_org_array_array">
+        <item>MSF</item>
+        <item>Red Cross / Red Crescent</item>
+        <item>Help4Refugees</item>
+        <item>UNHCR</item>
+        <item>Unicef</item>
+    </string-array>
+
+    <string-array name="age_group_array">
+        <item>Under 16</item>
+        <item>16–19</item>
+        <item>20–25</item>
+        <item>26–31</item>
+        <item>32–40</item>
+        <item>41–50</item>
+        <item>51–60</item>
+        <item>60+</item>
+    </string-array>
+
+    <string-array name="gender_array">
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+
+    <string-array name="family_array">
+        <item>Father</item>
+        <item>Mother</item>
+        <item>Brother</item>
+        <item>Sister</item>
+        <item>Aunt</item>
+        <item>Uncle</item>
+        <item>Niece</item>
+        <item>Nephew</item>
+        <item>Cousin</item>
+        <item>Grandfather</item>
+        <item>Grandmother</item>
+        <item>Grandson</item>
+        <item>Granddaughter</item>
+        <item>Daughter</item>
+        <item>Son</item>
+    </string-array>
+
+    <string name="registration_title">Registration</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+
+
+
+    <!-- Countries -->
+    <string name="Afghanistan">Afghanistan</string>
+    <string name="Albania">Albania</string>
+    <string name="Algeria">Algeria</string>
+    <string name="AmericanSamoa"> American Samoa </string>
+    <string name="Andorra">Andorra</string>
+    <string name="Angola">Angola</string>
+    <string name="Anguilla">Anguilla</string>
+    <string name="AntiguaandBarbuda">Antigua and Barbuda</string>
+    <string name="Argentina">Argentina</string>
+    <string name="Armenia">Armenia</string>
+    <string name="Aruba">Aruba</string>
+    <string name="Australia">Australia</string>
+    <string name="Austria">Austria</string>
+    <string name="Azerbaijan">Azerbaijan</string>
+    <string name="Bahamas">Bahamas</string>
+    <string name="Bahrain">Bahrain</string>
+    <string name="Bangladesh">Bangladesh</string>
+    <string name="Barbados">Barbados</string>
+    <string name="Belarus">Belarus</string>
+    <string name="Belgium">Belgium</string>
+    <string name="Belize">Belize</string>
+    <string name="Benin">Benin</string>
+    <string name="Bermuda">Bermuda</string>
+    <string name="Bhutan">Bhutan</string>
+    <string name="Bolivia">Bolivia</string>
+    <string name="BosniaandHerzegovina">Bosnia and Herzegovina</string>
+    <string name="Botswana">Botswana</string>
+    <string name="Brazil">Brazil</string>
+    <string name="BritishIndianOceanTerritory">British Indian Territory</string>
+    <string name="BritishVirginIslands">British Virgin Islands</string>
+    <string name="Brunei">Brunei</string>
+    <string name="Bulgaria">Bulgaria</string>
+    <string name="BurkinaFaso">Burkina Faso</string>
+    <string name="Burundi">Burundi</string>
+    <string name="Cambodia">Cambodia</string>
+    <string name="Cameroon">Cameroon</string>
+    <string name="Canada">Canada</string>
+    <string name="CapeVerde">CapeVerde</string>
+    <string name="CaribbeanNetherlands">Caribbean Netherlands</string>
+    <string name="CaymanIslands">Cayman Islands</string>
+    <string name="CentralAfricanRepublic">CentralAfricanRepublic</string>
+    <string name="Chad">Chad</string>
+    <string name="Chile">Chile</string>
+    <string name="China">China</string>
+    <string name="ChristmasIsland">ChristmasIsland</string>
+    <string name="CocosKeelingIslands"> Cocos (Keeling) Islands </string>
+    <string name="Colombia">Colombia</string>
+    <string name="Comoros">Comoros</string>
+    <string name="DemocraticRepublicofCongo">Democratic Republic of Congo</string>
+    <string name="RepublicOfCongo">Republic Of Congo</string>
+    <string name="CookIslands">Cook Islands</string>
+    <string name="CostaRica">Costa Rica</string>
+    <string name="CotedIvoire">Côte d’Ivoire</string>
+    <string name="Croatia">Croatia</string>
+    <string name="Cuba">Cuba</string>
+    <string name="Curacao">Curaçao</string>
+    <string name="Cyprus">Cyprus</string>
+    <string name="CzechRepublic">Czech Republic</string>
+    <string name="Denmark">Denmark</string>
+    <string name="Djibouti">Djibouti</string>
+    <string name="Dominica">Dominica</string>
+    <string name="DominicanRepublic">Dominican Republic</string>
+    <string name="Ecuador">Ecuador</string>
+    <string name="Egypt">Egypt</string>
+    <string name="ElSalvador">El Salvador</string>
+    <string name="EquatorialGuinea">Equatorial Guinea</string>
+    <string name="Estonia">Estonia</string>
+    <string name="Eritrea">Eritrea</string>
+    <string name="Ethiopia">Ethiopia</string>
+    <string name="FalklandIslands">Falkland Islands</string>
+    <string name="FaroeIslands">Faroe Islands</string>
+    <string name="Fiji">Fiji</string>
+    <string name="Finland">Finland</string>
+    <string name="France">France</string>
+    <string name="FrenchGuiana">French Guiana</string>
+    <string name="FrenchPolynesia">French Polynesia</string>
+    <string name="Gabon">Gabon</string>
+    <string name="Gambia">Gambia</string>
+    <string name="Georgia">Georgia</string>
+    <string name="Germany">Germany</string>
+    <string name="Ghana">Ghana</string>
+    <string name="Gibraltar">Gibraltar</string>
+    <string name="Greece">Greece</string>
+    <string name="Greenland">Greenland</string>
+    <string name="Grenada">Grenada</string>
+    <string name="Guadeloupe">Guadeloupe</string>
+    <string name="Guam">Guam</string>
+    <string name="Guatemala">Guatemala</string>
+    <string name="Guernsey">Guernsey</string>
+    <string name="Guinea">Guinea</string>
+    <string name="GuineaBissau">Guinea-Bissau</string>
+    <string name="Guyana">Guyana</string>
+    <string name="Haiti">Haiti</string>
+    <string name="Honduras">Honduras</string>
+    <string name="HongKong">Hong Kong</string>
+    <string name="Hungary">Hungary</string>
+    <string name="Iceland">Iceland</string>
+    <string name="India">India</string>
+    <string name="Indonesia">Indonesia</string>
+    <string name="Iran">Iran</string>
+    <string name="Iraq">Iraq</string>
+    <string name="Ireland">Ireland</string>
+    <string name="IsleofMan">Isle of Man</string>
+    <string name="Israel">Israel</string>
+    <string name="Italy">Italy</string>
+    <string name="Jamaica">Jamaica</string>
+    <string name="Japan">Japan</string>
+    <string name="Jersey">Jersey</string>
+    <string name="Jordan">Jordan</string>
+    <string name="Kazakhstan">Kazakhstan</string>
+    <string name="Kenya">Kenya</string>
+    <string name="Kiribati">Kiribati</string>
+    <string name="Kuwait">Kiribati</string>
+    <string name="Kyrgyzstan">Kyrgyzstan</string>
+    <string name="Laos">Laos</string>
+    <string name="Latvia">Latvia</string>
+    <string name="Lebanon">Lebanon</string>
+    <string name="Lesotho">Lesotho</string>
+    <string name="Liberia">Liberia</string>
+    <string name="Libya">Libya</string>
+    <string name="Liechtenstein">Liechtenstein</string>
+    <string name="Lithuania">Lithuania</string>
+    <string name="Luxembourg">Luxembourg</string>
+    <string name="Macao">Macao</string>
+    <string name="Macedonia">Macedonia</string>
+    <string name="Madagascar">Madagascar</string>
+    <string name="Malawi">Malawi</string>
+    <string name="Malaysia">Malaysia</string>
+    <string name="Maldives">Maldives</string>
+    <string name="Mali">Mali</string>
+    <string name="Malta">Malta</string>
+    <string name="MarshallIslands">Marshall Islands</string>
+    <string name="Martinique">Martinique</string>
+    <string name="Mauritania">Mauritania</string>
+    <string name="Mauritius">Mauritius</string>
+    <string name="Mayotte">Mayotte</string>
+    <string name="Mexico">Mexico</string>
+    <string name="Micronesia">Micronesia</string>
+    <string name="Moldova">Moldova</string>
+    <string name="Monaco">Monaco</string>
+    <string name="Montenegro">Montenegro</string>
+    <string name="Mongolia">Mongolia</string>
+    <string name="Montserrat">Montserrat</string>
+    <string name="Morocco">Morocco</string>
+    <string name="Mozambique">Mozambique</string>
+    <string name="Myanmar">Myanmar</string>
+    <string name="Namibia">Namibia</string>
+    <string name="Nauru">Nauru</string>
+    <string name="Nepal">Nepal</string>
+    <string name="Netherlands">Netherlands</string>
+    <string name="NewCaledonia">New Caledonia</string>
+    <string name="NewZealand">New Zealand</string>
+    <string name="Nicaragua">Nicaragua</string>
+    <string name="Niger">Niger</string>
+    <string name="Nigeria">Nigeria</string>
+    <string name="Niue">Niue</string>
+    <string name="NorfolkIsland">NorfolkIsland</string>
+    <string name="NorthKorea">NorthKorea</string>
+    <string name="NorthernMarianaIslands">Northern Mariana Islands</string>
+    <string name="Norway">Norway</string>
+    <string name="Oman">Oman</string>
+    <string name="Pakistan">Pakistan</string>
+    <string name="Palau">Palau</string>
+    <string name="Palestine">Palestine</string>
+    <string name="Panama">Panama</string>
+    <string name="PapuaNewGuinea"> Papua New Guinea </string>
+    <string name="Paraguay">Paraguay</string>
+    <string name="Peru">Peru</string>
+    <string name="Philippines">Philippines</string>
+    <string name="Poland">Poland</string>
+    <string name="Portugal">Portugal</string>
+    <string name="PuertoRico">Puerto Rico</string>
+    <string name="Qatar">Qatar</string>
+    <string name="Reunion">Réunion</string>
+    <string name="Romania">Romania</string>
+    <string name="Russia">Russia</string>
+    <string name="Rwanda">Rwanda</string>
+    <string name="SaintBarthelemy">Saint Barthélemy</string>
+    <string name="SaintHelena">Saint Helena</string>
+    <string name="SaintKittsandNevis"> Saint Kitts and Nevis </string>
+    <string name="SaintLucia">Saint Lucia</string>
+    <string name="SaintMartin">Saint Martin</string>
+    <string name="SaintPierreandMiquelon">Saint Pierre and Miquelon</string>
+    <string name="SaintVincentandtheGrenadines">Saint Vincent and the Grenadines</string>
+    <string name="Samoa">Samoa</string>
+    <string name="SanMarino">San Marino</string>
+    <string name="SaudiArabia">Saudi Arabia</string>
+    <string name="Senegal">Senegal</string>
+    <string name="Serbia">Serbia</string>
+    <string name="Seychelles">Seychelles</string>
+    <string name="SierraLeone">Sierra Leone</string>
+    <string name="Singapore">Singapore</string>
+    <string name="SintMaarten">Sint Maarten</string>
+    <string name="Slovakia">Slovakia</string>
+    <string name="Slovenia">Slovenia</string>
+    <string name="SolomonIslands">Solomon Islands</string>
+    <string name="Somalia">Somalia</string>
+    <string name="SouthAfrica">South Africa</string>
+    <string name="SouthKorea">SouthKorea</string>
+    <string name="SouthSudan">South Sudan</string>
+    <string name="Spain">Spain</string>
+    <string name="SriLanka">Sri Lanka</string>
+    <string name="Sudan">Sudan</string>
+    <string name="Suriname">Suriname</string>
+    <string name="SvalbardandJanMayen">Svalbard and Jan Mayen</string>
+    <string name="Swaziland">Swaziland</string>
+    <string name="Sweden">Sweden</string>
+    <string name="Switzerland">Switzerland</string>
+    <string name="Syria">Syria</string>
+    <string name="Taiwan">Taiwan</string>
+    <string name="Tajikistan">Tajikistan</string>
+    <string name="Tanzania">Tanzania</string>
+    <string name="Thailand">Thailand</string>
+    <string name="TimorLeste">Timor-Leste</string>
+    <string name="Togo">Togo</string>
+    <string name="Tokelau">Tokelau</string>
+    <string name="Tonga">Tonga</string>
+    <string name="TrinidadandTobago">Trinidad and Tobago</string>
+    <string name="Tunisia">Tunisia</string>
+    <string name="Turkey">Turkey</string>
+    <string name="Turkmenistan">Turkmenistan</string>
+    <string name="TurksandCaicosIslands"> Turks and Caicos Islands</string>
+    <string name="Tuvalu">Tuvalu</string>
+    <string name="U.S.VirginIslands">U.S. Virgin Islands</string>
+    <string name="Uganda">Uganda</string>
+    <string name="Ukraine">Ukraine</string>
+    <string name="UAE">United Arab Emirates‎</string>
+    <string name="UnitedKingdom">United Kingdom</string>
+    <string name="UnitedStates">United States</string>
+    <string name="Uruguay">Uruguay</string>
+    <string name="Uzbekistan">Uzbekistan</string>
+    <string name="Vanuatu">Vanuatu</string>
+    <string name="VaticanCity">Vatican City</string>
+    <string name="Venezuela">Venezuela</string>
+    <string name="Vietnam"> Vietnam </string>
+    <string name="WallisandFutuna">Wallis and Futuna</string>
+    <string name="WesternSahara">Western Sahara</string>
+    <string name="Yemen">Yemen</string>
+    <string name="Zambia">Zambia</string>
+    <string name="Zimbabwe">Zimbabwe</string>
+    <string name="AlandIslands">Åland Islands</string>
+
+
+
+    <!-- Refugee presenter error messages -->
+    <string name="name_empty"> "Name is empty" </string>
+    <string name="nationality_empty"> "Nationality is empty" </string>
+    <string name="pob_empty"> "Place of Birth is empty" </string>
+    <string name="dob_past"> "Date must be in the past" </string>
+    <string name="dob_sixteen_or_over"> "User must be at least 16" </string>
+    <string name="nickname_empty"> "NickName is empty" </string>
+
+
+    <!-- Refugee/Aid worker registration Labels -->
+    <string name="name"> "Name" </string>
+    <string name="nationality"> Nationality </string>
+    <string name="date_of_birth"> "Date Of Birth" </string>
+    <string name="place_of_birth"> "City / Town of Birth" </string>
+    <string name="nickname"> "Nickame" </string>
+    <string name="aidOrg"> "Aid Organization" </string>
+
+    <!-- Strings related to login -->
+
+    <string name="prompt_email">Email</string>
+    <string name="action_sign_in_short">Log in</string>
+    <string name="action_register_short">Register</string>
+
+
+    <string name="age_label">Age Range</string>
+    <string name="relationship_label">Relationship</string>
+    <string name="tribe_label">Tribe</string>
+    <string name="gender_label">Gender</string>
+    <string name="local_area_label">Local Area / Village</string>
+    <string name="occupation_label">Occupation</string>
+    <string name="age_null">"Age is empty</string>
+    <string name="tribe_null">"Tribe is empty</string>
+    <string name="gender_null">"Gender is empty</string>
+    <string name="local_null">"Local Area / Village is empty</string>
+    <string name="occupation_null">"Occupation is empty</string>
+    <string name="position_label"> Position </string>
+    <string name="supervisor_label">Supervisor</string>
+    <string name="work_country_label">Country of Work</string>
+    <string name="sector_label">Sector</string>
+    <string name="sector_empty">Sector is Empty</string>
+    <string name="position_empty">Position is empty</string>
+    <string name="work_country_empty">Country of work is empty</string>
+    <string name="gender_empty">Gender is empty</string>
+    <string name="aid_org_empty">Aid Organization is empty</string>
+    <string name="supervisor_empty">Supervisor is empty</string>
+    <string name="relationship_null">Relationship is empty</string>
+    <string name="home">Home</string>
+    <string name="search_fam"> Search for Family</string>
+    <string name="search"> Search</string>
+
+    <string name="contact_org"> Contact Org</string>
+    <string name="inbox">Inbox</string>
+    <string name="sentbox">Sentbox</string>
+    <string name="select_fam_members">Select your family member. Then hit the proceed button to update their details</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="search_fam_step_1_inst">Press Search. After a short wait, your results will appear on the screen</string>
+    <string name="contact_fam_step_1_inst">Select the family member you are looking for in the dropdown box. Then hit the Contact Organisation button</string>
+    <string name="forgot_pass">Forgot your password</string>
+    <string name="set_new_pass">Set your new password with the verification code that was sent to you</string>
+    <string name="new_pass">New Password</string>
+    <string name="ver_code">Verification code</string>
+    <string name="request_ver">Request Verification</string>
+    <string name="pass_button">Set Password</string>
+    <string name="enter_conf_code">Enter Confirmation Code</string>
+    <string name="_confirm_account">Confirm your account</string>
+    <string name="confirm_mob_desr">A Confirmation code was sent \n to your  mobile number.</string>
+    <string name="confirm">Confirm</string>
+    <string name="resend_code">Resend code</string>
+    <string name="conf_failed">Confirmation failed!</string>
+    <string name="conf_code_resend_dialog">Confirmation code sent. Code sent to</string>
+    <string name="conf_code_request_failed">Confirmation code request has failed</string>
+    <string name="conf_code_empty">Confirmation Code cannot be empty</string>
+    <string name="cannot_be_empty">cannot be empty</string>
+    <string name="select_ref"> Select Refugee</string>
+    <string name="fam_members"> Family Members</string>
+    <string name="voice_message_inbox">Voice Message Inbox</string>
+    <string name="voice_message_sentbox">Voice Message Sent Box</string>
+    <string name="profile">Profile</string>
+    <string name="your_details">Your Details</string>
+    <string name="settings">Settings</string>
+    <string name="proceed">Proceed</string>
+    <string name="set_new_phone">Set New Phone Number</string>
+    <string name="current_phone">Current Phone Number</string>
+    <string name="phone">Mobile Number</string>
+    <string name="change_phone">Change Phone Number</string>
+    <string name="change_lang">Change Language</string>
+    <string name="send_voice_mess">Send Voice Message</string>
+    <string name="record_again">Record Again</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="this_is_my_family_member">This Is My Family Member</string>
+    <string name="this_is_not_my_family_member">This is not my family member</string>
+    <string name="password">Password</string>
+    <string name="current_refugee">Current Refugee</string>
+    <string name="add_ref">Add Refugee</string>
+    <string name="select_fam_ins">Select the missing family member you wish to search for </string>
+    <string name="select_refugee_ins">Select a refugee you with to help with finding their lost family member. </string>
+    <string name="select_refugee">Select a Refugee </string>
+    <string name="update_ref_details">Update Refugee Details</string>
+    <string name="update_fam_member_details">Update Family Details</string>
+    <string name="title_activity_choose_user_tyoe">Choose User Type</string>
+    <string name="full_name">Full Name</string>
+    <string name="name_too_short">Must be at least 6 characters</string>
+    <string name="voice_messages">Voice Messages</string>
+    <string name="miss_title">Missing : </string>
+    <string name="select_fam">Select Family Member</string>
+    <string name="update">Update</string>
+    <string name="upload">Uploading:</string>
+    <string name="download">Downloading:</string>
+    <string name="item_image_contentDescription">Country flag</string>
+    <string name="country_area_code">Country Code</string>
+    <string name="record_voicemail">Record Message</string>
+    <string name="sent_message">Sent Message</string>
+    <string name="contact_organisation">Contact Organisation</string>
+    <string name="sorry">No Matches</string>
+    <string name="no_matches_desc">Sorry, we couldn\'t find a match right now. \n \n Please search again at a later date</string>
+    <string name="error">ERROR:</string>
+    <string name="please_wait">Please wait a further</string>
+    <string name="please_wait_two">days before contacting an aid organisation.</string>
+    <string name="contact_org_inst">Describe your current location and provide your Phone Number so a an Aid Organization in your area can make further contact.</string>
+    <string name="location">Description of Your Location</string>
+    <string name="phone_error">Please input a valid phone number</string>
+    <string name="location_error">Location details cannot be empty</string>
+    <string name="contact_org_match_ins">Select the refugee you are matched with from the dropdown box</string>
+    <string name="no_match_menu">I Can\'t Find My Family Member</string>
+    <string name="match_menu">I Found My Family Member</string>
+    <string name="contact_org_done">Your Details Have Been Sent to an Aid Organisation. Please wait for Further Contact.</string>
+    <string name="match">Match</string>
+    <string name="matched_part_one">You have successfully matched with</string>
+    <string name="matched_part_two">Please proceed to contact an aid organisation</string>
+    <string name="no_match_part_one">You have identified the voice message as not being a match. No further contact will be made.
+        Please search again.</string>
+    <string name="no_match">Not a Match</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="possible_match">This could be my family member?</string>
+    <string name="match_dialog">This is my family member</string>
+    <string name="no_match_dialog">This is not my family member</string>
+    <string name="possible_no_match">Remove from search?</string>
+    <string name="match_cont">I\'ve Found my Family Member</string>
+    <string name="no_match_cont">I Can\'t Find my Family Member</string>
+    <string name="password_empty">Password cannot be empty</string>
+    <string name="ok">OK</string>
+    <string name="sign_up_failed">Sign Up Failed</string>
+    <string name="sign_in_failed">Sign In Failed</string>
+    <string name="percent">%</string>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#50D3D3D3"
+    android:id="@+id/dialog_frame"
+    >
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/_65sdp"
+    android:textSize="@dimen/_20ssp"
+    android:textColor="#ffffff"
+    android:background="@drawable/dialogborder"
+    android:text = ""
+    android:textAlignment="center"
+    android:gravity="center"
+    android:padding="@dimen/_10sdp"
+    android:id="@+id/dialog_tit"
+    />
+    <android.support.v7.widget.SearchView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/dialog_tit"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:background="@drawable/bottomborder"
+        android:id="@+id/search_view_country"
+        />
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_height="@dimen/_250sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/search_view_country"
+        android:scrollbarThumbVertical="@drawable/scrollbar"
+        android:scrollbarSize="@dimen/_15sdp"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:id="@+id/list_dialog"/>
+
+
+</RelativeLayout>
+
+
+

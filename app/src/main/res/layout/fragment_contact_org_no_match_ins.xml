@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_16sdp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <RelativeLayout
+        android:layout_width="@dimen/_240sdp"
+        android:layout_height="wrap_content"
+        android:background="#25D3D3D3"
+        android:padding="@dimen/_30sdp"
+        android:id="@+id/relativeLayout"
+        android:layout_marginTop="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:padding="@dimen/_7sdp"
+            android:src="@drawable/dropdown_arrow"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/contact_org_ins_box"
+            android:layout_toRightOf="@+id/contact_org_ins_box"
+            android:layout_toEndOf="@+id/contact_org_ins_box" />
+        <RelativeLayout
+            android:layout_width="@dimen/_180sdp"
+            android:layout_height="wrap_content"
+            android:background="#20D3D3D3"
+            android:id="@+id/contact_org_ins_box"
+            android:layout_below="@+id/step_1_description"
+            android:layout_marginTop="@dimen/_20sdp">
+
+            <TextView
+                android:id="@+id/select_fam_dialog"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:gravity="center"
+                android:padding="@dimen/_6sdp"
+                android:text="@string/select_fam"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/_13ssp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:id="@+id/select_fam_img"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/dropdown_arrow"
+                android:padding="@dimen/_7sdp"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+
+        <TextView
+        android:id="@+id/step_1_description"
+        android:layout_width="@dimen/_240sdp"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_fam_step_1_inst"
+        android:lines="5"
+        android:textAlignment="center"
+        android:maxLines="5"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/_15ssp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_below="@+id/ins_connect_fam"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/ins_connect_fam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instructions"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/_28ssp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/cont_no_match_button"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="@string/contact_organisation"
+        android:layout_below="@id/relativeLayout"
+        android:textColor="@color/TitleColor"
+        android:textSize="@dimen/_12ssp"
+        android:visibility="invisible"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

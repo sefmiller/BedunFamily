@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:padding="@dimen/_10sdp"
+    tools:context="com.gb.globalfamily.Choose_User_Type_Activity">
+
+    <Button
+        android:id="@+id/org_button"
+        android:layout_width="@dimen/_140sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:background="@drawable/button"
+        android:text="@string/aidOrg"
+        android:textColor="@color/TitleColor"
+        android:layout_marginTop="@dimen/_56sdp"
+        android:layout_below="@+id/register_button"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="@dimen/_140sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:background="@drawable/button"
+        android:text="@string/action_register_short"
+        android:textColor="@color/TitleColor"
+        android:layout_marginTop="@dimen/_106sdp"
+        android:layout_below="@+id/user_type_title"
+        android:layout_alignLeft="@+id/org_button"
+        android:layout_alignStart="@+id/org_button" />
+
+    <TextView
+        android:id="@+id/user_type_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:textAlignment="center"
+        android:text="@string/action_register_short"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/_28ssp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

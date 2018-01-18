@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_16sdp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <RelativeLayout
+        android:layout_width="@dimen/_240sdp"
+        android:layout_height="wrap_content"
+        android:background="#25D3D3D3"
+        android:padding="@dimen/_20sdp"
+        android:id="@+id/relativeLayout"
+        android:layout_marginBottom="@dimen/_85sdp"
+        android:layout_above="@+id/voice_final_button"
+        android:layout_centerHorizontal="true">
+        <TextView
+        android:id="@+id/step_1_description"
+        android:layout_width="@dimen/_240sdp"
+        android:layout_height="wrap_content"
+        android:text="@string/voice_final_ins"
+        android:lines="8"
+        android:textAlignment="center"
+        android:maxLines="8"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/_15ssp"
+        android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/voice_final_button"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="@string/main_menu"
+        android:textColor="@color/TitleColor"
+        android:textSize="@dimen/_12ssp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_57sdp" />
+</RelativeLayout>

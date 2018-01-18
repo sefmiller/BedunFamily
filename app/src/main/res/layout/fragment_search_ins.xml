@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_16sdp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <RelativeLayout
+        android:layout_width="@dimen/_240sdp"
+        android:layout_height="wrap_content"
+        android:background="#25D3D3D3"
+        android:padding="@dimen/_30sdp"
+        android:id="@+id/relativeLayout"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+        android:id="@+id/step_1_description"
+        android:layout_width="@dimen/_240sdp"
+        android:layout_height="wrap_content"
+        android:text="@string/search_fam_step_1_inst"
+        android:lines="6"
+        android:textAlignment="center"
+        android:maxLines="6"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/_15ssp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_below="@+id/ins_connect_fam"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/ins_connect_fam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instructions"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/_28ssp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/search_fam_button"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="@string/search"
+        android:textColor="@color/TitleColor"
+        android:textSize="@dimen/_12ssp"
+        android:layout_marginTop="@dimen/_75sdp"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
