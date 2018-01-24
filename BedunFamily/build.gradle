@@ -1,0 +1,57 @@
+apply plugin: 'com.android.application'
+
+android {
+    configurations.all {
+        resolutionStrategy.force 'com.google.code.findbugs:jsr305:1.3.9'
+    }
+    compileSdkVersion 27
+    buildToolsVersion "27"
+    defaultConfig {
+        applicationId "com.gb.bedunfamily"
+        minSdkVersion 18
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main { java.srcDirs = ['src/main/java', 'src/main/java/model', 'src/main/java/Presenter'] }
+    }
+}
+repositories {
+    mavenCentral() // jcenter() works as well because it pulls from Maven Central
+    maven { url "https://jitpack.io" }
+
+}
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile project(':WheelPicker')
+    compile 'com.github.bumptech.glide:glide:4.2.0'
+    compile 'com.amazonaws:aws-android-sdk-ddb:2.2.+'
+    compile 'com.amazonaws:aws-android-sdk-ddb:2.2.+'
+    compile 'com.jakewharton.threetenabp:threetenabp:1.0.5'
+    compile 'com.android.support:appcompat-v7:27.0.2'
+    compile 'com.android.support:design:27.+'
+    compile 'com.android.support:cardview-v7:27.0.2'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.googlecode.libphonenumber:libphonenumber:8.2.0'
+    compile 'com.amazonaws:aws-android-sdk-core:2.2.+'
+    compile 'com.amazonaws:aws-android-sdk-s3:2.6.6'
+    compile 'com.amazonaws:aws-android-sdk-ddb-mapper:2.2.+'
+    compile 'com.amazonaws:aws-android-sdk-cognitoidentityprovider:2.3.2'
+    compile 'com.amazonaws:aws-android-sdk-cognito:2.2.+'
+    compile 'de.hdodenhof:circleimageview:2.2.0'
+
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:support-v13:27.0.2'
+}
+

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/_3sdp"
+    android:paddingLeft="@dimen/_16sdp"
+    android:paddingRight="@dimen/_16sdp"
+    android:paddingTop="@dimen/_3sdp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@drawable/background"
+    tools:context="com.gb.bedunfamily.Registration_Refugee_Activity"
+    >
+
+    <TextView
+        android:id="@+id/aid_nationality_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:padding="@dimen/_5sdp"
+        android:background="#20D3D3D3"
+        android:text="@string/nationality"
+        android:textSize="@dimen/_15ssp"
+        android:textColor="@color/TitleColor"
+        android:layout_below="@+id/nationality_aid_label"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/gender_aid_spinner"
+        android:text="@string/gender_label"
+        android:layout_width="@dimen/_90sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:padding="@dimen/_5sdp"
+        android:textColor="@color/TitleColor"
+        android:background="#20D3D3D3"
+        android:textSize="@dimen/_15ssp"
+        android:textAlignment="center"
+        android:layout_alignTop="@+id/dob_aid_worker"
+        android:layout_alignLeft="@+id/gender_label"
+        android:layout_alignStart="@+id/gender_label" />
+
+    <TextView
+        android:id="@+id/sector_spinner"
+        android:text="@string/sector_label"
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:padding="@dimen/_5sdp"
+        android:background="#20D3D3D3"
+        android:textSize="@dimen/_15ssp"
+        android:textColor="@color/TitleColor"
+        android:layout_below="@+id/sector_label"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/position"
+        android:maxLines="1"
+        android:hint="@string/position_label"
+        android:textColorHint="@color/TitleColor"
+        android:textColor="@color/TitleColor"
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:padding="@dimen/_5sdp"
+        android:background="#20D3D3D3"
+        android:textSize="@dimen/_15ssp"
+        android:layout_below="@+id/position_label"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/work_country_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:background="#20D3D3D3"
+        android:padding="@dimen/_5sdp"
+        android:text="@string/work_country_label"
+        android:textColor="@color/TitleColor"
+        android:textSize="@dimen/_15ssp"
+        android:layout_below="@+id/work_country_label"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/nationality_aid_label"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColorHint="@color/TitleColor"
+        android:textColor="@color/TitleColor"
+        android:textSize="@dimen/_11ssp"
+        android:layout_below="@+id/gender_aid_spinner"
+        android:layout_toLeftOf="@+id/gender_aid_spinner"
+        android:layout_toStartOf="@+id/gender_aid_spinner" />
+
+    <TextView
+        android:id="@+id/supervisor_label"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:text=""
+        android:textColor="@color/TitleColor"
+        android:textColorHint="@color/TitleColor"
+        android:textSize="@dimen/_11ssp"
+        android:layout_below="@+id/sector_spinner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/work_country_label"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColorHint="@color/TitleColor"
+        android:textColor="@color/TitleColor"
+        android:textSize="@dimen/_11ssp"
+        android:layout_below="@+id/aid_nationality_spinner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="@dimen/_7sdp" />
+
+    <TextView
+        android:id="@+id/org_label"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColorHint="@color/TitleColor"
+        android:textColor="@color/TitleColor"
+        android:textSize="@dimen/_11ssp"
+        android:layout_below="@+id/work_country_spinner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="@dimen/_7sdp" />
+
+    <TextView
+        android:id="@+id/dob_label"
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColorHint="@color/TitleColor"
+        android:textColor="@color/TitleColor"
+        android:textSize="@dimen/_11ssp"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:layout_below="@+id/name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/sector_label"
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColorHint="@color/TitleColor"
+        android:textColor="@color/TitleColor"
+        android:textSize="@dimen/_11ssp"
+        android:layout_below="@+id/aid_org_spinner"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/position_label"
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColorHint="@color/TitleColor"
+        android:textColor="@color/TitleColor"
+        android:textSize="@dimen/_11ssp"
+        android:layout_below="@+id/aid_org_spinner"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/gender_label"
+        android:layout_width="@dimen/_90sdp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColorHint="@color/TitleColor"
+        android:textColor="@color/TitleColor"
+        android:textSize="@dimen/_11ssp"
+        android:layout_above="@+id/gender_aid_spinner"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/name_label"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColorHint="@color/TitleColor"
+        android:textColor="@color/TitleColor"
+        android:layout_width="@dimen/_200sdp"
+        android:textSize="@dimen/_11ssp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:layout_below="@+id/registrationTitle"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/aid_org_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:background="#20D3D3D3"
+        android:textSize="@dimen/_15ssp"
+        android:text = "@string/aidOrg"
+        android:padding="@dimen/_5sdp"
+        android:textColor="@color/TitleColor"
+        android:layout_below="@+id/org_label"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <AutoCompleteTextView
+        android:id="@+id/supervisor_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/supervisor_label"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:textSize="@dimen/_15ssp"
+        android:padding="@dimen/_5sdp"
+        android:background="#20D3D3D3"
+        android:textColor="@color/TitleColor"
+        android:textColorHint="@color/TitleColor"
+        android:layout_below="@+id/supervisor_label"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <AutoCompleteTextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#20D3D3D3"
+        android:hint="@string/full_name"
+        android:textColorHint="@color/TitleColor"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:textSize="@dimen/_15ssp"
+        android:padding="@dimen/_5sdp"
+        android:layout_below="@+id/name_label"
+        android:textColor="@color/TitleColor"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/registration_title"
+        android:textSize="@dimen/_28ssp"
+        android:textColor="@color/TitleColor"
+        android:id="@+id/registrationTitle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/registration_button"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="@string/request_ver"
+        android:textColor="@color/TitleColor"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_alignLeft="@+id/registrationTitle"
+        android:layout_alignStart="@+id/registrationTitle" />
+
+    <TextView
+        android:id="@+id/dob_aid_worker"
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_5sdp"
+        android:text="@string/date_of_birth"
+        android:background="#20D3D3D3"
+        android:maxLines="1"
+        android:textColor="@color/TitleColor"
+        android:textSize="@dimen/_15ssp"
+        android:layout_below="@+id/dob_label"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/dob_aid_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:fabSize="mini"
+        android:layout_marginLeft="@dimen/_5sdp"
+        app:srcCompat="@android:drawable/ic_menu_my_calendar"
+        android:layout_alignBottom="@+id/dob_aid_worker"
+        android:layout_toRightOf="@+id/dob_label"
+        android:layout_toEndOf="@+id/dob_label" />
+
+</RelativeLayout>
