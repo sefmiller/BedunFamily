@@ -4,12 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/_9sdp"
-    android:paddingLeft="@dimen/_16sdp"
-    android:paddingRight="@dimen/_16sdp"
+
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.gb.bedunfamily.Registration_Refugee_Activity"
     >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="@dimen/_10sdp"
+        android:paddingBottom="@dimen/_9sdp"
+        android:paddingLeft="@dimen/_16sdp"
+        android:paddingRight="@dimen/_16sdp"
+        android:layout_height="match_parent">
 
     <RelativeLayout
         android:id="@+id/relativeLayout"
@@ -55,17 +61,18 @@
     </RelativeLayout>
 
 
+    </RelativeLayout>
     <Button
         android:id="@+id/contact_button"
-        android:layout_width="@dimen/_150sdp"
+        android:layout_width="match_parent"
         android:textColorHint="#ffffff"
         android:layout_height="wrap_content"
-        android:background="@drawable/button"
+        android:background="@android:color/holo_blue_dark"
         android:text="@string/main_menu"
         android:textSize="@dimen/_12ssp"
+        android:textStyle="bold"
         android:textColor="@color/TitleColor"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="@dimen/_5sdp"
         android:layout_centerHorizontal="true"
         />
 

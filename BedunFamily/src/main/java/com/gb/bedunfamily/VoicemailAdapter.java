@@ -31,9 +31,7 @@ public class VoicemailAdapter extends RecyclerView.Adapter<VoicemailAdapter.MyVi
     private final ArrayList<Refugee> dataSet;
     private final ArrayList<Integer> keySet;
     private final ArrayList<Voicemail> vmData;
-
     private final Context context;
-
 
     /**
      * The view holder initialises the layout of an item view in the adapter. handles behaviour such as on click.

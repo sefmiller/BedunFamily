@@ -5,13 +5,12 @@
     android:orientation="vertical"
     android:tag="cards main container">
 
-
     <Button
         android:id="@+id/button9"
-        android:layout_width="@dimen/_120sdp"
+        android:layout_width="match_parent"
         android:layout_height="@dimen/_40sdp"
-        android:layout_marginBottom="@dimen/_35sdp"
-        android:background="@drawable/button"
+        android:background="@android:color/holo_blue_dark"
+        android:textStyle="bold"
         android:padding="@dimen/_5sdp"
         android:visibility="invisible"
         android:text="@string/main_menu"

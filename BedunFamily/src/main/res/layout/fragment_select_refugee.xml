@@ -3,9 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="@dimen/_16sdp"
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/_16sdp"
+        >
     <RelativeLayout
         android:layout_width="@dimen/_240sdp"
         android:layout_height="wrap_content"
@@ -73,16 +77,18 @@
             />
     </RelativeLayout>
 
+    </RelativeLayout>
+
     <Button
         android:id="@+id/select_ref_button"
-        android:layout_width="@dimen/_120sdp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/button"
+        android:background="@android:color/holo_blue_dark"
         android:text="@string/proceed"
+        android:textStyle="bold"
         android:visibility="invisible"
-        android:layout_below="@id/relativeLayout"
+        android:layout_alignParentBottom="true"
         android:textColor="@color/TitleColor"
         android:textSize="@dimen/_12ssp"
-        android:layout_marginTop="@dimen/_50sdp"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>

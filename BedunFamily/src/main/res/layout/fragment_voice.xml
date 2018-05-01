@@ -6,23 +6,6 @@
     android:tag="cards main container">
 
 
-    <Button
-        android:id="@+id/button9"
-        android:layout_width="@dimen/_120sdp"
-        android:layout_height="@dimen/_40sdp"
-        android:layout_marginBottom="@dimen/_35sdp"
-        android:layout_marginEnd="@dimen/_25sdp"
-        android:layout_marginRight="@dimen/_25sdp"
-        android:background="@drawable/button"
-        android:padding="@dimen/_5sdp"
-        android:visibility="invisible"
-        android:text="@string/send_voice_mess"
-        android:textColor="@color/TitleColor"
-        android:textSize="@dimen/_12ssp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
-
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="@dimen/_200sdp"
@@ -54,22 +37,37 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/_42sdp" />
 
-    <Button
-        android:id="@+id/button8"
-        android:layout_width="@dimen/_120sdp"
-        android:layout_height="@dimen/_40sdp"
-        android:background="@drawable/button"
-        android:text="@string/record_again"
-        android:visibility="invisible"
-        android:textColor="@color/TitleColor"
-        android:textSize="@dimen/_12ssp"
-        android:padding="@dimen/_5sdp"
-        android:layout_marginLeft="@dimen/_23sdp"
-        android:layout_marginStart="@dimen/_23sdp"
-        android:layout_alignTop="@+id/button9"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/right_border"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:visibility="visible"
+            android:text="@string/send_voice_mess"
+            android:textColor="@color/TitleColor"
+            android:textSize="@dimen/_12ssp"
+            />
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/left_border"
+            android:text="@string/record_again"
+            android:visibility="visible"
+            android:textColor="@color/TitleColor"
+            android:textSize="@dimen/_12ssp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
 </RelativeLayout>
 
 

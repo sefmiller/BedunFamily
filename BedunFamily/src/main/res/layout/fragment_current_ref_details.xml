@@ -4,13 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/_9sdp"
-    android:paddingLeft="@dimen/_16sdp"
-    android:paddingRight="@dimen/_16sdp"
+
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.gb.bedunfamily.Registration_Refugee_Activity"
     >
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingBottom="@dimen/_9sdp"
+        android:paddingLeft="@dimen/_16sdp"
+        android:paddingRight="@dimen/_16sdp"
+        android:layout_height="match_parent">
     <TextView
         android:id="@+id/nickname_label"
         android:layout_width="@dimen/_130sdp"
@@ -275,12 +279,15 @@
         android:layout_alignParentStart="true" />
 
 
+    </RelativeLayout>
+
     <Button
         android:id="@+id/add_ref_button"
-        android:layout_width="@dimen/_150sdp"
+        android:layout_width="match_parent"
         android:textColorHint="#ffffff"
+        android:textStyle="bold"
         android:layout_height="wrap_content"
-        android:background="@drawable/button"
+        android:background="@android:color/holo_blue_dark"
         android:text="@string/update"
         android:textSize="@dimen/_12ssp"
         android:textColor="@color/TitleColor"

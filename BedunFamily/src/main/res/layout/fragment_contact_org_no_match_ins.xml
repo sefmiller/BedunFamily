@@ -3,8 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="@dimen/_16sdp"
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="@dimen/_16sdp"
+        android:layout_height="match_parent">
 
     <RelativeLayout
         android:layout_width="@dimen/_240sdp"
@@ -85,16 +89,17 @@
         />
     </RelativeLayout>
 
+    </RelativeLayout>
     <Button
         android:id="@+id/cont_no_match_button"
-        android:layout_width="@dimen/_120sdp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/button"
+        android:background="@android:color/holo_blue_dark"
         android:text="@string/contact_organisation"
-        android:layout_below="@id/relativeLayout"
         android:textColor="@color/TitleColor"
+        android:textStyle="bold"
         android:textSize="@dimen/_12ssp"
         android:visibility="invisible"
-        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>

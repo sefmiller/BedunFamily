@@ -3,20 +3,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:aigestudio="http://schemas.android.com/apk/res-auto"
-    android:padding="@dimen/_10sdp">
+    >
 
-    <Button
-        android:id="@+id/langbutton"
-        android:layout_width="@dimen/_150sdp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="@dimen/_50sdp"
-        android:padding="@dimen/_5sdp"
-        android:background="@drawable/button"
-        android:onClick="sendMessage"
-        android:text="@string/action_sign_in"
-        android:textColor="@color/TitleColor" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="@dimen/_10sdp"
+        android:layout_height="match_parent">
 
     <com.aigestudio.wheelpicker.WheelPicker
         android:id="@+id/main_wheel"
@@ -32,5 +24,18 @@
         aigestudio:wheel_item_text_size="24sp"
         aigestudio:wheel_selected_item_text_color="@color/colorAccent" />
 
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/langbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:background="@android:color/holo_blue_dark"
+        android:onClick="sendMessage"
+        android:text="@string/action_sign_in"
+        android:textColor="@color/TitleColor" />
 
 </RelativeLayout>

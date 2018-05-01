@@ -151,19 +151,11 @@
         android:textAllCaps="false"
         android:textColor="@color/TitleColor"
         android:id="@+id/confirm_button"
-
         android:background="@drawable/button"
-        android:layout_below="@+id/textViewConfirmCodeMessage"
+        android:layout_above="@+id/resend_confirm_req"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="@dimen/_60sdp"
-        android:layout_marginBottom="@dimen/_10sdp" />
-
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/_20sdp"
-        android:layout_below="@id/confirm_button"
-        android:id="@+id/space_confirm_3" />
+        android:layout_marginBottom="@dimen/_5sdp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -175,8 +167,9 @@
         android:textColorHint="@color/TitleColor"
         android:textColor="@color/TitleColor"
         android:id="@+id/resend_confirm_req"
-        android:layout_below="@+id/confirm_button"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:layout_alignParentBottom="true"
          />
 
 </RelativeLayout>

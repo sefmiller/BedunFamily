@@ -107,6 +107,7 @@ public class MainActivity extends AppCompatActivity
     private static ProgressDialog dialog;
     static DatabaseHelper dbHelper;
     private TextView nav_miss;
+    private boolean isHome;
     private static CognitoUserSession sesh;
     static CountriesFetcher.CountryList mCountries;
     private TextView mTitle;
@@ -288,11 +289,20 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
-        } else {
+        }
+        if (isHome){}
+        else {
             super.onBackPressed();
         }
     }
 
+    public boolean isHome() {
+        return isHome;
+    }
+
+    public void setHome(boolean home) {
+        isHome = home;
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -615,7 +625,7 @@ public class MainActivity extends AppCompatActivity
             MainActivity anActivity = (MainActivity) getActivity();
             assert anActivity != null;
             anActivity.getmTitle().setText(R.string.home);
-
+            anActivity.setHome(true);
             currentUserType = dbHelper.getCurrentUserType();
             viewOneImg = view.findViewById(R.id.ukimg1);
             viewTwoImg = view.findViewById(R.id.ukimg2);
@@ -648,6 +658,12 @@ public class MainActivity extends AppCompatActivity
             return view;
         }
 
+        @Override
+        public void onStop(){
+            MainActivity anActivity = (MainActivity) getActivity();
+            anActivity.setHome(false);
+            super.onStop();
+        }
 
         /**
          * Checks if user is refugee or aidworker and loads appropriate method

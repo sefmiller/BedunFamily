@@ -4,14 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/_3sdp"
-    android:paddingLeft="@dimen/_16sdp"
-    android:paddingRight="@dimen/_16sdp"
-    android:paddingTop="@dimen/_3sdp"
+
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     android:background="@drawable/background"
     tools:context="com.gb.bedunfamily.Registration_Refugee_Activity"
     >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingBottom="@dimen/_3sdp"
+        android:paddingLeft="@dimen/_16sdp"
+        android:paddingRight="@dimen/_16sdp"
+        android:paddingTop="@dimen/_3sdp"
+        android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/nickname_label"
@@ -290,17 +295,18 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
+    </RelativeLayout>
+
     <Button
         android:id="@+id/registration_button"
-        android:layout_width="@dimen/_150sdp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/button"
+        android:textStyle="bold"
+        android:background="@android:color/holo_blue_dark"
         android:text="@string/next"
         android:textSize="@dimen/_12ssp"
-        android:layout_marginBottom="@dimen/_5sdp"
         android:textColor="@color/TitleColor"
         android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/registrationTitle"
-        android:layout_alignStart="@+id/registrationTitle" />
+         />
 
 </RelativeLayout>
