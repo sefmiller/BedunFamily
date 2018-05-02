@@ -13,14 +13,23 @@ The concept arose from personal experieince of working within a refugee camp wit
 The Following modules are used in the app:
 
 WheelPicker https://github.com/AigeStudio/WheelPicker. Wheel picker used to select the language. 
+
 CircleImageView https://github.com/hdodenhof/CircleImageView. Used to provide a circular, bordered imageview to contain image files.
+
 IntlPhoneInput https://github.com/AlmogBaku/IntlPhoneInput. Contains all country codes/ flags to simplify a user inputting their phone number.
+
 Amazon AWS S3. Used to securely store, upload and download data such as voicemails and image files.
+
 Amazon AWS Cognito. Used to authenticate and identify user and allocate access tokens.
+
 Amazon AWS Dynamo. Provides a database instance.
+
 Amazon EC2. Hosts a linux web server. The SQL database tables are accessed through phpMyadmin. Php scripts are used to fetch the data from the database and our encoded into JSON, which is then readable by the application. 
+
 Amazon SNS. Texts messaging facilitates authenticating and identifying a user and retrieve losts details.
+
 Glide https://github.com/bumptech/glide.  Used to retrieve images from URLS and cache into local memory. Used primarily for its superior automatic image recycling.
+
 ThreeTenABP https://github.com/JakeWharton/ThreeTenABP. Backport of the updated Android Time & Date libraries (JSR 310) to support older Android OS.
 
 ### Building
