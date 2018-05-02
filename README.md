@@ -8,7 +8,8 @@ A refugee's details are recorded and are then searchable by other users. Enough 
 
 The concept arose from personal experieince of working within a refugee camp with other aid workers. A mobile phone is the most valuable posession of a refugee, as a means of staying in contact with home and family and also sending and recieving currency. Whilst crossing borders along the route, smart phones can be lost, stolen or contacts lost through changing to a sim in a different locale. The app provides a solution by empowering refugees to re-connect with their family members. The app is available in 14 Languages
 
-#### The project is currently unfinished, awaiting an injection of funding
+#### The project is currently unfinished, awaiting an injection of funding.
+
 
 ###  Dependencies 
 
