@@ -2,6 +2,9 @@
 
 ## Bedun Family is an Android application providing a digital solution to the displacement of refugees across the globe.
 
+![alt text](https://github.com/sefmiller/BedunFamily/blob/master/art/Screenshot_2018-04-30-22-04-08.png)![alt text](https://github.com/sefmiller/BedunFamily/blob/master/art/Screenshot_2018-04-30-22-04-20.png)![alt text](https://github.com/sefmiller/BedunFamily/blob/master/art/Screenshot_2018-04-30-22-06-01.png)![alt text](https://github.com/sefmiller/BedunFamily/blob/master/art/Screenshot_2018-04-30-22-06-10.png)![alt text](https://github.com/sefmiller/BedunFamily/blob/master/art/Screenshot_2018-04-30-22-07-08.png)![alt text](https://github.com/sefmiller/BedunFamily/blob/master/art/Screenshot_2018-04-30-22-08-18.png)![alt text](https://github.com/sefmiller/BedunFamily/blob/master/art/Screenshot_2018-04-30-22-07-49.png)![alt text](https://github.com/sefmiller/BedunFamily/blob/master/art/Screenshot_2018-04-30-22-08-11.png)
+
+
 The app can be used by a refugee to trace a family member missing along the refugee route, or by a certified aid worker, acting on their behalf.
 
 A refugee's details are recorded and are then searchable by other users. Enough details are recorded to be identified by a family member, without disclosing personal, sensitive information. A search algorithm sources the most probable matches. Upon accepting a possible match, each user exchanges a short voice message. If both users confirm that the voice message belongs to their missing family member, then an aid organisation in the local area is brought in to establish re-unifacion. 
