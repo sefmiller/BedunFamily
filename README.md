@@ -2,7 +2,9 @@
 
 ## Bedun Family is an Android application providing a digital solution to the displacement of refugees across the globe.
 
-![alt text](https://github.com/sefmiller/BedunFamily/blob/master/art/Screenshot_2018-04-30-22-04-08.png)![alt text](https://github.com/sefmiller/BedunFamily/blob/master/art/Screenshot_2018-04-30-22-04-20.png)![alt text](https://github.com/sefmiller/BedunFamily/blob/master/art/Screenshot_2018-04-30-22-06-01.png)![alt text](https://github.com/sefmiller/BedunFamily/blob/master/art/Screenshot_2018-04-30-22-06-10.png)![alt text](https://github.com/sefmiller/BedunFamily/blob/master/art/Screenshot_2018-04-30-22-07-08.png)![alt text](https://github.com/sefmiller/BedunFamily/blob/master/art/Screenshot_2018-04-30-22-08-18.png)![alt text](https://github.com/sefmiller/BedunFamily/blob/master/art/Screenshot_2018-04-30-22-07-49.png)![alt text](https://github.com/sefmiller/BedunFamily/blob/master/art/Screenshot_2018-04-30-22-08-11.png)
+![alt text](https://github.com/sefmiller/BedunFamily/blob/master/art/Screenshot_2018-04-30-22-04-08.png)![alt text](https://github.com/sefmiller/BedunFamily/blob/master/art/Screenshot_2018-04-30-22-04-20.png)![alt text](https://github.com/sefmiller/BedunFamily/blob/master/art/Screenshot_2018-04-30-22-06-01.png)![alt text](https://github.com/sefmiller/BedunFamily/blob/master/art/Screenshot_2018-04-30-22-06-10.png)
+
+![alt text](https://github.com/sefmiller/BedunFamily/blob/master/art/Screenshot_2018-04-30-22-07-08.png)![alt text](https://github.com/sefmiller/BedunFamily/blob/master/art/Screenshot_2018-04-30-22-08-18.png)![alt text](https://github.com/sefmiller/BedunFamily/blob/master/art/Screenshot_2018-04-30-22-07-49.png)![alt text](https://github.com/sefmiller/BedunFamily/blob/master/art/Screenshot_2018-04-30-22-08-11.png)
 
 
 The app can be used by a refugee to trace a family member missing along the refugee route, or by a certified aid worker, acting on their behalf.
