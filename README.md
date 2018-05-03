@@ -46,7 +46,7 @@ The project builds with Jcenter.
 
 ## Authors
 
-* **Sefton Howie** - 
+* **Sefton Howie** 
  
 
 ## License
